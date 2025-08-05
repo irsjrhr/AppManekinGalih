@@ -1,0 +1,24 @@
+canvas{
+	width: 100%;
+	height: 100%;
+}
+.col_indicator_manekin{
+	padding: 0 !important;
+}
+.col_indicator_manekin .box_manekin{
+	width: 100%;
+	height: auto;
+	padding: 5px;
+	text-align: center;
+	transition: .5s;
+	cursor: pointer;
+}
+.box_manekin:hover{
+	border: 1px solid #ccc;
+
+}
+.box_manekin img{
+	width: 70px;
+	height: 70px;
+	margin-bottom: 10px;
+}

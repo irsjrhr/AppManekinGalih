@@ -1,0 +1,6 @@
+.sidebar{
+	background: darkcyan !important;
+}
+.sidebar *{
+	color: #fff;
+}
