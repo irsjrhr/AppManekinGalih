@@ -227,13 +227,16 @@ nav {
 
 .feature-card {
     background: linear-gradient(135deg, #1a1a1a, #333);
-    padding: 2rem;
     border-radius: 15px;
     text-align: center;
     transition: all 0.3s ease;
     border: 1px solid rgba(212, 175, 55, 0.2);
     position: relative;
     overflow: hidden;
+}
+.service-image img{
+    width: 100%;
+    height: 100%;
 }
 
 .feature-card::before {
@@ -588,4 +591,12 @@ footer {
     .form-row {
         grid-template-columns: 1fr;
     }
+}
+
+.logo_img{
+    width: 100px;
+    height: 100px;
+}
+section{
+    margin-top: 100px;
 }
